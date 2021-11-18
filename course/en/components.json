@@ -47,13 +47,13 @@
     },
     "instruction": "شاهد الفيديو",
     "_media": {
-      "mp4": "course/en/assets/9dc69966311f454444517751e6eaec6e14756b8c.mp4",
+      "mp4": "course/en/assets/a471e85b48b9afefd9864c7ef6603be48d25f59b.mp4",
       "ogv": "",
       "webm": "",
       "mp3": "",
       "source": "",
       "type": "",
-      "poster": "course/en/assets/7aac636748805168320fd904d33e35d2978593f8.png",
+      "poster": "course/en/assets/87fcacd7b22d09b091353f70668658a6d0ba4af2.png",
       "cc": []
     },
     "_setCompletionOn": "play",
@@ -155,7 +155,7 @@
       "title": "التغذية الراجعة",
       "correct": "<p dir=\"RTL\">نعم! هذه المهمّة منوطة به، وعليه إدخال جميع الأسماء بغضّ النظر عن حضورهم أو غيابهم.</p>",
       "_incorrect": {
-        "final": "<p dir=\"rtl\">كلّا! لا يجب إدخال أسماء الحاضرين فقط، بل أسماء المتعلّمين جميعهم، وتحدّد أسماء الغائبين في أثناء إدخال العلامات على الصّفحة الخاصّة بكلّ مادّة.</p>",
+        "final": "<p dir=\"rtl\">كلا، يجب إدخال أسماء المتعلّمين جميعهم، وليس فقط أسماء الحاضرين فقط. وتحدّد أسماء الغائبين في أثناء إدخال العلامات على الصّفحة الخاصّة بكلّ مادّة.</p>",
         "notFinal": ""
       },
       "_partlyCorrect": {
@@ -476,5 +476,29 @@
       "remainingAttemptsText": "",
       "remainingAttemptText": ""
     }
+  },
+  {
+    "_component": "text",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "New Component Title",
+    "displayTitle": "",
+    "body": "<p dir=\"rtl\" style=\"text-align: center;\"><span style=\"color:#FF8C00\"><strong>شكراً لتعاونكم</strong>&nbsp;!</span></p>",
+    "_id": "6195f2e76ba25325345740ec",
+    "_parentId": "6195f2e76ba25325345740eb",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "instruction": ""
   }
 ]

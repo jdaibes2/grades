@@ -218,5 +218,22 @@
     "_id": "61958554677ca91304c6d897",
     "_parentId": "61957b7b677ca91304c6d87a",
     "_type": "block"
+  },
+  {
+    "title": "New Block Title",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "",
+    "_trackingId": 9,
+    "instruction": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_requireCompletionOf": -1,
+    "_ariaLevel": 0,
+    "_id": "6195f2e76ba25325345740eb",
+    "_parentId": "61957b7b677ca91304c6d87a",
+    "_type": "block"
   }
 ]
