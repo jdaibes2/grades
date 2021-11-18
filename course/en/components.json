@@ -11,7 +11,7 @@
     "_disableAccessibilityState": false,
     "title": "New Component Title",
     "displayTitle": "",
-    "body": "<p dir=\"rtl\"><strong><span style=\"color:#FF8C00\">مشروع التّقييم في الصّفّ الأساسي الثّالث</span></strong></p><p dir=\"rtl\">يهدف هذا النشاط لتثبيت خطوات إدخال العلامات على ملف إكسيل</p>",
+    "body": "<p dir=\"rtl\" style=\"text-align: center;\"><strong><span style=\"color:#FF8C00\">مشروع التّقييم في الصّفّ الأساسي الثّالث</span></strong></p><p dir=\"rtl\" style=\"text-align: center;\">يهدف هذا النشاط لتثبيت خطوات إدخال العلامات على ملف إكسيل</p>",
     "_id": "61957b7b677ca91304c6d87c",
     "_parentId": "61957b7b677ca91304c6d87b",
     "_type": "component",
@@ -396,7 +396,7 @@
     "_disableAccessibilityState": false,
     "title": "New Component Title",
     "displayTitle": "",
-    "body": "<p dir=\"RTL\"><strong>4- يرسل معلّم الرياضيات الملفّ المنجز بشكل كامل إلى بريد المركز التربويّ الإلكترونيّ، وأيضًا إلى بريد زميله معلّم اللّغة العربيّة لكي:</strong></p>",
+    "body": "<p dir=\"RTL\"><strong>5- يرسل معلّم الرياضيات الملفّ المنجز بشكل كامل إلى بريد المركز التربويّ الإلكترونيّ، وأيضًا إلى بريد زميله معلّم اللّغة العربيّة لكي:</strong></p>",
     "_id": "6195855a677ca91304c6d898",
     "_parentId": "61958554677ca91304c6d897",
     "_type": "component",
@@ -489,7 +489,7 @@
     "_disableAccessibilityState": false,
     "title": "New Component Title",
     "displayTitle": "",
-    "body": "<p dir=\"rtl\" style=\"text-align: center;\"><span style=\"color:#FF8C00\"><strong>شكراً لتعاونكم</strong>&nbsp;!</span></p>",
+    "body": "<p dir=\"rtl\" style=\"text-align:center\"><span style=\"color:#FF8C00\"><strong>شكراً لتعاونكم</strong></span></p><p dir=\"rtl\" style=\"text-align:center\">مع تحيّات فريق العمل&nbsp;!</p>",
     "_id": "6195f2e76ba25325345740ec",
     "_parentId": "6195f2e76ba25325345740eb",
     "_type": "component",
@@ -500,5 +500,91 @@
       "_percentInviewVertical": 50
     },
     "instruction": ""
+  },
+  {
+    "_component": "mcq",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "New Component Title",
+    "displayTitle": "",
+    "body": "<p dir=\"RTL\"><strong>4-عند انتهاء أي مرحلة من المرحلتين يتم إرسال ملف علامات واحد للمركز يشمل المّادتين: اللغة العربية والرياضيات</strong></p>",
+    "_id": "6195fa3c6ba25325345740ef",
+    "_parentId": "6195fa3c6ba25325345740ee",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "instruction": "",
+    "_items": [
+      {
+        "text": "صح",
+        "_shouldBeSelected": true,
+        "_isPartlyCorrect": false,
+        "feedback": "",
+        "_score": 0
+      },
+      {
+        "text": "خطأ",
+        "_shouldBeSelected": false,
+        "_isPartlyCorrect": false,
+        "feedback": "",
+        "_score": 0
+      }
+    ],
+    "_attempts": 1,
+    "_canShowModelAnswer": true,
+    "_canShowFeedback": true,
+    "_canShowMarking": true,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": false,
+    "_recordInteraction": true,
+    "_hasItemScoring": false,
+    "_questionWeight": 1,
+    "_selectable": 1,
+    "_feedback": {
+      "title": "التغذية الراجعة",
+      "correct": "<p dir=\"RTL\">نعم ! يدخل المعلمان العلامات في نفس الملف، ثم يرسل معلم الرياضيات هذا الملف بصيغته النهائية</p>",
+      "_incorrect": {
+        "final": "<p dir=\"rtl\">كلا ! يدخل المعلمان العلامات في نفس الملف، ثم يرسل معلم الرياضيات هذا الملف بصيغته النهائية</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_reset": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showFeedback": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "",
+      "remainingAttemptText": ""
+    }
   }
 ]
